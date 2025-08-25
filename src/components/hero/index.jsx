@@ -6,7 +6,7 @@ import ServiceList from "../serviceList";
 import Image from "next/image";
 
 export default function HeroBanner() {
-  const MotionImage = motion(Image);
+  const MotionImage = motion.create(Image);
 
   return (
     <Box
